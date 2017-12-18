@@ -1,0 +1,9 @@
+ul {
+  background: pink;
+  li {
+    color: yellow;
+    &:hover {
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+ul {
+  background: blue; }
+  ul li {
+    color: yellow; }
+    ul li:hover {
+      color: red; }
+  ul a {
+    text-decoration: green; }
