@@ -60,6 +60,7 @@ class ThisComponent extends Component {
         </form>
         <hr />
         <hr />
+        <hr />
         Your Messages:
         {this.state.messages &&
           this.state.messages.map((curr, index) => {
