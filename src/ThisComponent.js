@@ -59,6 +59,7 @@ class ThisComponent extends Component {
           <input type="text" onChange={e => this.addMessage(e)} />
         </form>
         <hr />
+        <hr />
         Your Messages:
         {this.state.messages &&
           this.state.messages.map((curr, index) => {
